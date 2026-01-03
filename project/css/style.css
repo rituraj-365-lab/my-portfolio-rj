@@ -1,0 +1,49 @@
+body {
+  margin: 0; /* remove default white space */
+  background-color: #F3F4F4;
+}
+
+h2 {
+  color: rgb(27, 40, 231);
+}
+
+.header {
+  width: 100%;
+  background-color: #061E29;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  color: rgb(3, 18, 28);
+}
+
+.contact {
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li:not(:last-child)::after {
+  content: " | ";
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
